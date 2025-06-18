@@ -18,12 +18,19 @@ function App() {
         </a>
       </div>
       <h1>5b1b0908 劉宣鈺</h1>
-      <h2>我的第一個元件：Slider</h2>
+      <h2>我的第一個元件:Slider</h2>
       <div>
         <p>R:<MySlider /></p>
         <p>G:<MySlider /></p>
         <p>B:<MySlider /></p>
       </div>
+       <br />
+      <h2>第二個元件:RGB色彩面板</h2>
+      <MyPanel />
+      <h2>第三個元件:計算機</h2>
+      <MyCalculator />
+      <h2>第四個元件:井字遊戲</h2>
+      <TicTacToe />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

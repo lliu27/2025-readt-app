@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+
 import MySlider from "./component/MySlider";
 
 function App() {
@@ -25,12 +26,8 @@ function App() {
         <p>B:<MySlider /></p>
       </div>
        <br />
-      <h2>第二個元件:RGB色彩面板</h2>
+        <h2>第二個元件：RGB色彩面板</h2>
       <MyPanel />
-      <h2>第三個元件:計算機</h2>
-      <MyCalculator />
-      <h2>第四個元件:井字遊戲</h2>
-      <TicTacToe />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

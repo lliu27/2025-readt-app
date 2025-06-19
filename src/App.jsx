@@ -27,7 +27,7 @@ function App() {
       </div>
        <br />
         <h2>第二個元件：RGB色彩面板</h2>
-      <MyPanel />
+      {/* <MyPanel /> */}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
